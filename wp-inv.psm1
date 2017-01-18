@@ -1,35 +1,53 @@
-function wp {
+function GoToWaypointGit {
   Set-Location C:\waypointgit
 }
 
-function als {
+New-Alias wpg GoToWaypointGit
+
+function GoToAccountsLedger {
   Set-Location C:\waypointgit\AccountsLedger
 }
 
-function pi {
+New-Alias als GoToAccountsLedger
+
+function GoToPolicyInvoicing {
   Set-Location C:\waypointgit\PolicyInvoicing
 }
 
-function ipm {
+New-Alias pi GoToPolicyInvoicing
+
+function GoToInvoicePresentationModel {
   Set-Location C:\waypointgit\InvoicePresentationModel
 }
 
-function ir {
+New-Alias ipm GoToInvoicePresentationModel
+
+function GoToInvoiceReminder {
   Set-Location C:\waypointgit\InvoiceReminder
 }
 
-function inv.wc {
+New-Alias ir GoToInvoiceReminder
+
+function GoToInvoicingWebComponents {
   Set-Location C:\waypointgit\Invoicing.WebComponents
 }
 
-function inv.util {
+New-Alias iwc GoToInvoicingWebComponents
+
+function GoToInvoicingUtilities {
   Set-Location C:\waypointgit\Invoicing.Utilities
 }
 
-function inv.int {
+New-Alias iu GoToInvoicingUtilities
+
+function GoToInvoicingInternal {
   Set-Location C:\waypointgit\Invoicing.Internal
 }
 
-function inv.view {
+New-Alias iint GoToInvoicingInternal
+
+function GoToInvoicingView {
   Set-Location C:\waypointgit\Invoicing.View
 }
+
+New-Alias iv GoToInvoicingView
