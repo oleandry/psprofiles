@@ -1,53 +1,62 @@
-function GoToWaypointGit {
+function Set-Location-Waypointgit {
   Set-Location C:\waypointgit
 }
 
-New-Alias wpg GoToWaypointGit
+New-Alias Goto-Waypointgit Set-Location-Waypointgit
+New-Alias wpg Set-Location-Waypointgit
 
-function GoToAccountsLedger {
+function Set-Location-AccountsLedger {
   Set-Location C:\waypointgit\AccountsLedger
 }
 
-New-Alias als GoToAccountsLedger
+New-Alias Goto-AccountsLedger Set-Location-AccountsLedger
+New-Alias als Set-Location-AccountsLedger
 
-function GoToPolicyInvoicing {
+function Set-Location-PolicyInvoicing {
   Set-Location C:\waypointgit\PolicyInvoicing
 }
 
-New-Alias pi GoToPolicyInvoicing
+New-Alias Goto-PolicyInvoicing Set-Location-PolicyInvoicing
+New-Alias pi Set-Location-PolicyInvoicing
 
-function GoToInvoicePresentationModel {
+function Set-Location-InvoicePresentationModel {
   Set-Location C:\waypointgit\InvoicePresentationModel
 }
 
-New-Alias ipm GoToInvoicePresentationModel
+New-Alias Goto-InvoicePresentationModel Set-Location-InvoicePresentationModel
+New-Alias ipm Set-Location-InvoicePresentationModel
 
-function GoToInvoiceReminder {
+function Set-Location-InvoiceReminder {
   Set-Location C:\waypointgit\InvoiceReminder
 }
 
-New-Alias ir GoToInvoiceReminder
+New-Alias Goto-InvoiceReminder Set-Location-InvoiceReminder
+New-Alias ir Set-Location-InvoiceReminder
 
-function GoToInvoicingWebComponents {
+function Set-Location-InvoicingWebComponents {
   Set-Location C:\waypointgit\Invoicing.WebComponents
 }
 
-New-Alias iwc GoToInvoicingWebComponents
+New-Alias Goto-InvoicingWebComponents Set-Location-InvoicingWebComponents
+New-Alias iwc Set-Location-InvoicingWebComponents
 
-function GoToInvoicingUtilities {
+function Set-Location-InvoicingUtilities {
   Set-Location C:\waypointgit\Invoicing.Utilities
 }
 
-New-Alias iu GoToInvoicingUtilities
+New-Alias Goto-InvoicingUtilities Set-Location-InvoicingUtilities
+New-Alias iu Set-Location-InvoicingUtilities
 
-function GoToInvoicingInternal {
+function Set-Location-InvoicingInternal {
   Set-Location C:\waypointgit\Invoicing.Internal
 }
 
-New-Alias iint GoToInvoicingInternal
+New-Alias Goto-InvoicingInternal Set-Location-InvoicingInternal
+New-Alias iint Set-Location-InvoicingInternal
 
-function GoToInvoicingView {
+function Set-Location-InvoicingView {
   Set-Location C:\waypointgit\Invoicing.View
 }
 
-New-Alias iv GoToInvoicingView
+New-Alias Goto-InvoicingView Set-Location-InvoicingView
+New-Alias iv Set-Location-InvoicingView
