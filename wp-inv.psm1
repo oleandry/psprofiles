@@ -60,3 +60,10 @@ function Set-Location-InvoicingView {
 
 New-Alias Goto-InvoicingView Set-Location-InvoicingView
 New-Alias iv Set-Location-InvoicingView
+
+function Set-Location-Daybook {
+  Set-Location C:\waypointgit\Daybook
+}
+
+New-Alias Goto-Daybook Set-Location-Daybook
+New-Alias db Set-Location-Daybook
