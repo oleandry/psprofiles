@@ -75,9 +75,9 @@ function Set-Location-Payment {
 New-Alias Goto-Payment Set-Location-Payment
 New-Alias pay Set-Location-Payment
 
-function Set-Location-Payment {
+function Set-Location-Dev {
   Set-Location C:\dev\
 }
 
-New-Alias Goto-dev Set-Location-dev
-New-Alias dev Set-Location-dev
+New-Alias Goto-Dev Set-Location-Dev
+New-Alias dev Set-Location-Dev
