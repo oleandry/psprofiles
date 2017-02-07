@@ -67,3 +67,10 @@ function Set-Location-Daybook {
 
 New-Alias Goto-Daybook Set-Location-Daybook
 New-Alias db Set-Location-Daybook
+
+function Set-Location-Payment {
+  Set-Location C:\waypointgit\Payment
+}
+
+New-Alias Goto-Daybook Set-Location-Payment
+New-Alias pay Set-Location-Payment
