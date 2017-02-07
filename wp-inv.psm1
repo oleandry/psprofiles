@@ -72,5 +72,12 @@ function Set-Location-Payment {
   Set-Location C:\waypointgit\Payment
 }
 
-New-Alias Goto-Daybook Set-Location-Payment
+New-Alias Goto-Payment Set-Location-Payment
 New-Alias pay Set-Location-Payment
+
+function Set-Location-Payment {
+  Set-Location C:\dev\
+}
+
+New-Alias Goto-dev Set-Location-dev
+New-Alias dev Set-Location-dev
