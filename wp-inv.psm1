@@ -81,3 +81,47 @@ function Set-Location-Dev {
 
 New-Alias Goto-Dev Set-Location-Dev
 New-Alias dev Set-Location-Dev
+
+function Invoke-Git-Pull-All-Invoicing-Repos-Master {
+  Push-Location C:\waypointgit\AccountsLedger
+  Write-Host "Pulling AccountsLedger master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\PolicyInvoicing
+  Write-Host "Pulling PolicyInvoicing master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\InvoicePresentationModel
+  Write-Host "Pulling InvoicePresentationModel master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\InvoiceReminder
+  Write-Host "Pulling InvoiceReminder master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\Invoicing.WebComponents
+  Write-Host "Pulling InvoicingWebComponents master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\Daybook
+  Write-Host "Pulling Daybook master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\Payment
+  Write-Host "Pulling Payment master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\Invoicing.View
+  Write-Host "Pulling InvoicingView master"
+  git checkout master
+  git push
+  Pop-Location
+}
+New-Alias pullallinv Invoke-Git-Pull-All-Invoicing-Repos-Master
