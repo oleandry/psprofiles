@@ -75,12 +75,21 @@ function Set-Location-Payment {
 New-Alias Goto-Payment Set-Location-Payment
 New-Alias pay Set-Location-Payment
 
+function Set-Location-Invoicing-Launchpad {
+  Set-Location C:\waypointgit\Invoicing.LaunchPad
+}
+
+New-Alias Goto-LaunchPad Set-Location-Invoicing-LaunchPad
+New-Alias lp Set-Location-Invoicing-LaunchPad
+
 function Set-Location-Dev {
   Set-Location C:\dev\
 }
 
 New-Alias Goto-Dev Set-Location-Dev
 New-Alias dev Set-Location-Dev
+
+
 
 function Invoke-Git-Pull-All-Invoicing-Repos-Master {
   Push-Location C:\waypointgit\AccountsLedger
@@ -120,6 +129,11 @@ function Invoke-Git-Pull-All-Invoicing-Repos-Master {
   Pop-Location
   Push-Location C:\waypointgit\Invoicing.View
   Write-Host "Pulling InvoicingView master"
+  git checkout master
+  git push
+  Pop-Location
+  Push-Location C:\waypointgit\Invoicing.LaunchPad
+  Write-Host "Pulling IInvoicing.LaunchPad master"
   git checkout master
   git push
   Pop-Location
