@@ -80,7 +80,7 @@ function Set-Location-Invoicing-Launchpad {
 }
 
 New-Alias Goto-LaunchPad Set-Location-Invoicing-LaunchPad
-New-Alias lp Set-Location-Invoicing-LaunchPad
+New-Alias ilp Set-Location-Invoicing-LaunchPad
 
 function Set-Location-Dev {
   Set-Location C:\dev\
