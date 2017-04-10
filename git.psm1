@@ -3,7 +3,7 @@ function Invoke-Git-Pull-All-Master {
 	Foreach ($directory in $directories) {
 		Push-Location $directory
 		git checkout master
-		Write-Host "Pulling $directory master"
+		Write-Host "Pulling $directory master" -ForegroundColor Green
 		git pull
 		Pop-Location
 	}
@@ -16,7 +16,7 @@ function Invoke-Git-Fetch-All-Master {
 	Foreach ($directory in $directories) {
 		Push-Location $directory
 		git checkout master
-		Write-Host "Fetching $directory master"
+		Write-Host "Fetching $directory master" -ForegroundColor Green
 		git fetch
 		Pop-Location
 	}
