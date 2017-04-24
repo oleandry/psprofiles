@@ -95,47 +95,47 @@ function Invoke-Git-Pull-All-Invoicing-Repos-Master {
   Push-Location C:\waypointgit\AccountsLedger
   Write-Host "Pulling AccountsLedger master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\PolicyInvoicing
   Write-Host "Pulling PolicyInvoicing master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\InvoicePresentationModel
   Write-Host "Pulling InvoicePresentationModel master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\InvoiceReminder
   Write-Host "Pulling InvoiceReminder master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\Invoicing.WebComponents
   Write-Host "Pulling InvoicingWebComponents master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\Daybook
   Write-Host "Pulling Daybook master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\Payment
   Write-Host "Pulling Payment master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\Invoicing.View
   Write-Host "Pulling InvoicingView master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
   Push-Location C:\waypointgit\Invoicing.LaunchPad
   Write-Host "Pulling IInvoicing.LaunchPad master" -ForegroundColor Green
   git checkout master
-  git push
+  git pull
   Pop-Location
 }
 New-Alias pullallinv Invoke-Git-Pull-All-Invoicing-Repos-Master
